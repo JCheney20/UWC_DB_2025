@@ -1,12 +1,18 @@
+# The-Hitch-Hackers 4323819 question_g.py DB Practical 1
+
+# Reference:
 # https://www.geeksforgeeks.org/python/python-increment-value-in-dictionary/
+
+# Helper func to get Language of a city
 def get_Lang(city):
     return city["Language"]
+
 
 def solve(data: list[dict[str, str]]) -> str:
     answer = ""
     spokenLanguages = {}
 
-    # Calculate number of cities that speak a set language, increasing if it is already there and adding it if not
+# Calc num of cities that speak a language, inc if it is already there, add if not
     for city in data:
         spokenLanguages[get_Lang(city)] = spokenLanguages.get(get_Lang(city), 0)+1
 
