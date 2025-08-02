@@ -1,5 +1,5 @@
 Question a:
-...todo... :(
+todo... :(
 
 Question b:
 todo... :(
@@ -14,10 +14,20 @@ Question e:
 todo... :(
 
 Question f:
-todo... :(
+
+1) Saint Helena
+2) Libyan Arab Jamahiriya
+3) Tunisia
+4) Réunion
+5) Mauritius
 
 Question g:
-todo... :(
+
+1) Chinese
+2) German
+3) Spanish
+4) Italian
+5) English
 
 Question h:
 todo... :(
