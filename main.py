@@ -11,7 +11,7 @@ import question_h
 # read the csv file, converting the rows to dictionaries
 # returns a list of dictionaries
 def parse_csv(file_name: str) -> list[dict[str, str]]:
-    with open(file_name) as csv_file:
+    with open(file_name, encoding='utf-8') as csv_file:
         reader = csv.reader(csv_file, delimiter=',')
         keys = next(reader)
         data = list()
