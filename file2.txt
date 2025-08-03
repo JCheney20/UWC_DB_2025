@@ -1,5 +1,5 @@
 Question a:
-todo... :(
+81
 
 Question b:
 todo... :(
@@ -30,5 +30,86 @@ Question g:
 5) English
 
 Question h:
-todo... :(
+albania
+algeria
+american samoa
+andorra
+angola
+anguilla
+antigua and barbuda
+argentina
+armenia
+aruba
+australia
+austria
+bermuda
+bolivia
+bosnia and herzegovina
+botswana
+bulgaria
+cambodia
+canada
+china
+colombia
+costa rica
+croatia
+cuba
+dominica
+equatorial guinea
+eritrea
+estonia
+ethiopia
+french guiana
+french polynesia
+gambia
+georgia
+ghana
+grenada
+guatemala
+guinea
+guyana
+india
+indonesia
+jamaica
+kenya
+latvia
+liberia
+libyan arab jamahiriya
+lithuania
+macedonia
+malaysia
+malta
+mauritania
+moldova
+mongolia
+namibia
+new caledonia
+nicaragua
+nigeria
+north korea
+panama
+papua new guinea
+romania
+rwanda
+saint helena
+saint lucia
+samoa
+saudi arabia
+slovakia
+slovenia
+somalia
+south africa
+south korea
+sri lanka
+syria
+tanzania
+tonga
+tunisia
+uganda
+venezuela
+wallis and futuna
+western sahara
+yugoslavia
+zambia
+
 
