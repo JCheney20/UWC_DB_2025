@@ -1,6 +1,6 @@
 
 def solve(data: list[dict[str, str]]) -> str:
-    city_populations = {}  # Create a  to store the highest population for each city
+    city_populations = {}  # Create a variable set to store the highest population for each city
     
     for row in data:  # Iterate through each row
         city_name = row['CityName'].strip()
