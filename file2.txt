@@ -2,10 +2,18 @@ Question a:
 81
 
 Question b:
-todo... :(
+Mumbai (Bombay)
+Seoul
+São Paulo
+Shanghai
+Jakarta
 
 Question c:
-todo... :(
+Russian Federation
+Canada
+China
+United States
+Brazil
 
 Question d:
 todo... :(
