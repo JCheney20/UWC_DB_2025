@@ -1,4 +1,7 @@
-#Answering "How many country names end with the letter 'a'?"
+#The Hitch Hackers
+#4323399
+#question_a
+#DB_Practical 1
 
 def solve(data: list[dict[str, str]]) -> str:
     countries_end_with_a = set() #Created a variable set to place the country names ending with 'a' (set () ignores duplicate values)
