@@ -1,5 +1,6 @@
 
 def solve(data: list[dict[str, str]]) -> str:
+    answer = ""
     city_populations = {}  # Create a variable set to store the highest population for each city
     
     for row in data:  # Iterate through each row
@@ -14,4 +15,8 @@ def solve(data: list[dict[str, str]]) -> str:
     top_cities = sorted(city_populations.items(), key=lambda x: x[1], reverse=True)[:5]
     
     # Return just the top 5 city names
-    return [city[0] for city in top_cities]
+    for city in top_cities:
+        answer += f"{city[0]}\n"
+
+    return answer
+

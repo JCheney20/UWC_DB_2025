@@ -16,10 +16,10 @@ def solve(data: list[dict[str, str]]) -> str:
             addedCountries.append(city["CountryName"])
 
 # Sort the list of African cities by the Life Expectancy
-    sortedCities = sorted(validData, reverse=True, key=lambda city: float(city["LifeExpectancy"]))
+    sortedCities = sorted(validData, reverse=True, key=lambda city: float(city["LifeExpectancy"]))[:5]
 
 # Add the top 5 to a string to be returned
-    for i in range(5):
-        answer += f"\n{i+1}) {sortedCities[i]["CountryName"]}"
+    for city in sortedCities:
+        answer += f"{city["CountryName"]}\n"
 
     return answer

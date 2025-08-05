@@ -8,6 +8,7 @@ São Paulo
 Shanghai
 Jakarta
 
+
 Question c:
 Russian Federation
 Canada
@@ -15,27 +16,34 @@ China
 United States
 Brazil
 
+
 Question d:
-todo... :(
+69
 
 Question e:
-todo... :(
+Belgium
+Dominican Republic
+El Salvador
+Greece
+Honduras
+Liberia
+Nicaragua
 
 Question f:
+Saint Helena
+Libyan Arab Jamahiriya
+Tunisia
+Réunion
+Mauritius
 
-1) Saint Helena
-2) Libyan Arab Jamahiriya
-3) Tunisia
-4) Réunion
-5) Mauritius
 
 Question g:
+Chinese
+German
+Spanish
+Italian
+English
 
-1) Chinese
-2) German
-3) Spanish
-4) Italian
-5) English
 
 Question h:
 albania
@@ -119,5 +127,4 @@ wallis and futuna
 western sahara
 yugoslavia
 zambia
-
 

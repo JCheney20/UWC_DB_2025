@@ -17,10 +17,10 @@ def solve(data: list[dict[str, str]]) -> str:
         spokenLanguages[get_Lang(city)] = spokenLanguages.get(get_Lang(city), 0)+1
 
     # Sort the list in descending order
-    sortedLanguages = sorted(spokenLanguages.items(), reverse=True, key=lambda lang: lang[1])
+    sortedLanguages = sorted(spokenLanguages.items(), reverse=True, key=lambda lang: lang[1])[:5]
 
     # Add the top 5 to the answer string
-    for i in range(5):
-        answer += f"\n{i+1}) {sortedLanguages[i][0]}"
+    for language in sortedLanguages:
+        answer += f"{language[0]}\n"
 
     return answer
