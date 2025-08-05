@@ -23,14 +23,14 @@ def solve(data: list[dict[str, str]]) -> str:
             continue
             
         try:
-            # converts the indep year to integer
+            # converts the indep year to an integer
             year = int(indep_year)
             
             # checks if the year is between 1830 and 1850 
             if 1830 <= year <= 1850:
                 countries_30s50s.add(country_name)
 
-         # skips the rows where IndepYear can't be converted to integer        
+         # skips the rows where IndepYear can't be converted to an integer        
         except ValueError:
             continue
     
