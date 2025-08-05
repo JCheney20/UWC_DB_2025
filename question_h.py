@@ -1,4 +1,7 @@
-#Answering "List the country names that end with the letter ‘a’, without any repetitions."
+#The Hitch Hackers
+#4323399
+#question_h
+#DB_Practical 1
 
 def solve(data: list[dict[str, str]]) -> str:
     countries_ending_with_a = set() #Created a variable set to place the country names ending with 'a' (set () ignores duplicate values)
