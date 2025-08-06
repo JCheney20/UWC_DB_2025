@@ -1,4 +1,4 @@
-# The-Hitch-Hackers 4323819 question_f.py DB Practical 1
+# The Hitch Hackers 4323819 question_f.py DB Practical 1
 
 # References:
 # https://realpython.com/sort-python-dictionary/

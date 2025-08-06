@@ -1,4 +1,4 @@
-# The-Hitch-Hackers 4323819 question_g.py DB Practical 1
+# The Hitch Hackers 4323819 question_g.py DB Practical 1
 
 # Reference:
 # https://www.geeksforgeeks.org/python/python-increment-value-in-dictionary/
