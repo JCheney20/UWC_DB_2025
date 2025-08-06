@@ -1,3 +1,7 @@
+#The Hitch Hackers
+#4323072
+#question_c
+#DB_Practical 1
 
 def solve(data: list[dict[str, str]]) -> list[str]:
     country_landmass = {}  # Create a variable set to store landmass for each country
