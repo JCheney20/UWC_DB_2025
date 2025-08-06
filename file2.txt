@@ -38,11 +38,11 @@ Mauritius
 
 
 Question g:
-Chinese
-German
-Spanish
-Italian
-English
+Chinese - 1191843539.0
+Hindi - 405633069.99999994
+Spanish - 355029462.0
+English - 347077867.3
+Arabic - 233839238.7
 
 
 Question h:
