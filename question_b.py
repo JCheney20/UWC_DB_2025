@@ -1,3 +1,7 @@
+#The Hitch Hackers
+#4323072
+#question_b
+#DB_Practical 1
 
 def solve(data: list[dict[str, str]]) -> str:
     answer = ""
