@@ -3,6 +3,7 @@
 UniRide is a university-based carpooling platform designed to connect student drivers and passengers for safe, affordable, and efficient campus transport. This repository contains the relational database design for UniRide, including the Entity-Relationship Diagram (ERD), business rules, and normalization steps.
 
 ## File Structure
+```
 Prac 3 - uniride_app/
 ├── [`app/`](app/)
 │ ├── [`.env`](app/.env)
@@ -13,7 +14,7 @@ Prac 3 - uniride_app/
 │ └── [`setup.sql`](sql/setup.sql)
 │
 └── README.md
-
+```
 
 ## Project Overview
 
