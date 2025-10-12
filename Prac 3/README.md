@@ -2,6 +2,19 @@
 
 UniRide is a university-based carpooling platform designed to connect student drivers and passengers for safe, affordable, and efficient campus transport. This repository contains the relational database design for UniRide, including the Entity-Relationship Diagram (ERD), business rules, and normalization steps.
 
+## File Structure
+Prac 3 - uniride_app/
+├── [`app/`](app/)
+│ ├── [`.env`](app/.env)
+│ └── [`uniride_db_app.py`](app/uniride_db_app.py)
+│
+├── [`sql/`](sql/)
+│ ├── [`queries.sql`](sql/queries.sql)
+│ └── [`setup.sql`](sql/setup.sql)
+│
+└── README.md
+
+
 ## Project Overview
 
 The database models key entities such as:
@@ -31,6 +44,7 @@ The database models key entities such as:
 
 - **draw.io (diagrams.net)** for ERD creation
 - **MySQL Workbench** for schema validation and SQL generation
+- **Visual Studio Code** for Python application script creation and testing
 
 ## Contents
 
@@ -38,3 +52,25 @@ The database models key entities such as:
 - `schema.sql` – SQL table definitions
 - `business_rules.md` – Formalized business logic
 - `normalization.md` – Step-by-step normalization breakdown
+
+## Implementation
+1. Create a folder with a relevant name (uniride_app) and follow file structure as mentioned above.
+2. Set up the .env file accordingly -> [`.env`](app/.env)
+3. Set up the python file accordingly -> [`uniride_db_app.py`](app/uniride_db_app.py)
+4. Set up the SQL files -> [`setup.sql`](sql/setup.sql) and [`queries.sql`](sql/queries.sql)
+5. Open the shell terminal within VSCode. 
+6. Create virtual environment to run pythin commands in terminal 
+```bash
+python -m venv venv
+venv\Scripts\activate #activate environment
+```
+7. Install dependencies
+```bash
+pip install mysql-connector-python python-dotenv faker
+pip freeze > requirements.txt #stores all packages in a file for reference
+```
+8. Run the python script in the terminal
+```bash
+python uniride_db_app.py
+```
+
